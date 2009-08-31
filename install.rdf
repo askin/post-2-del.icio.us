@@ -6,10 +6,10 @@
         <version>1.0.4</version>
         <type>2</type>
 
-        <name>Post to del.icio.us</name>
+        <name>Post to delicious</name>
         <description>Bookmark the current page at del.icio.us</description>
         <iconURL>chrome://delicious/skin/icon.png</iconURL>
-        <!-- based on, and uses the icon of, the del.icio.us post extension by Patrick Lauke https://addons.mozilla.org/en-US/firefox/addon/527 -->
+        <!-- based on, and uses the icon of, the post to del.icio.us extension by Alf Eaton https://addons.mozilla.org/en-US/firefox/addon/6652 -->
 
         <!-- Firefox -->
         <targetApplication>
