@@ -1,0 +1,22 @@
+<?xml-stylesheet href="chrome://delicious/skin/delicious.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://delicious/locale/overlay.dtd">
+
+<overlay
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  id="delicious-overlay">
+
+  <script type="application/x-javascript" src="chrome://delicious/content/overlay.js"/>
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="delicious-toolbar-button" class="toolbarbutton-1" oncommand="Delicious.launch()" context="_child" label="&toolbarbutton.label;" tooltiptext="&toolbarbutton.tooltiptext;">
+      <menupopup>
+        <menuitem label="&toolbarbutton.tastylabel;" oncommand="Delicious.tasty(event)" tooltiptext=""/>
+      </menupopup>
+    </toolbarbutton>
+  </toolbarpalette>
+  
+	<keyset id="mainKeyset">
+		<key id="delicious-shortcut" key="p" modifiers="control,shift" oncommand="Delicious.launch()" />
+	</keyset>
+  
+</overlay>

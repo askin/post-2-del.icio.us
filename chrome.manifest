@@ -1,0 +1,6 @@
+content delicious         chrome/content/
+skin    delicious classic chrome/skin/
+locale  delicious en      chrome/locale/en/
+
+overlay chrome://browser/content/browser.xul          chrome://delicious/content/overlay.xul
+style   chrome://global/content/customizeToolbar.xul  chrome://delicious/skin/delicious.css

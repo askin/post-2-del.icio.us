@@ -1,0 +1,10 @@
+<!-- Dialog -->
+<!ENTITY title "Post to del.icio.us ...">
+
+<!ENTITY url.label "URL">
+<!ENTITY description.label "Title">
+<!ENTITY extended.label "Description">
+<!ENTITY tags.label "Tags">
+
+<!ENTITY button.accept.label "Post">
+<!ENTITY button.cancel.label "Cancel">

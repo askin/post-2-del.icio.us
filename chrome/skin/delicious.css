@@ -1,0 +1,26 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#delicious-dialog {
+  width: 30em;
+}
+
+#delicious-toolbar-button {
+	list-style-image: url(chrome://delicious/skin/buttons.png);
+	-moz-image-region: rect(0 33px 24px 0);
+}
+
+#delicious-toolbar-button:hover {
+	-moz-image-region: rect(0 66px 24px 33px);
+}
+
+toolbar[iconsize="small"] #delicious-toolbar-button {
+	-moz-image-region: rect(0 88px 16px 66px);
+}
+
+toolbar[iconsize="small"] #delicious-toolbar-button:hover {
+	-moz-image-region: rect(0 110px 16px 88px);
+}
+
+dialog#delicious-dialog #delicious-dialog-buttons {
+	-moz-box-pack: end;
+}

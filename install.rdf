@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.mozilla.org/2004/em-rdf#">
+  <rdf:Description about="urn:mozilla:install-manifest">
+  
+    <id>del.icio.us@hubmed.org</id>
+    <version>1.0.4</version>
+    <type>2</type>
+
+    <name>Post to del.icio.us</name>
+    <description>Bookmark the current page at del.icio.us</description>
+	  <iconURL>chrome://delicious/skin/icon.png</iconURL>
+    <!-- based on, and uses the icon of, the del.icio.us post extension by Patrick Lauke https://addons.mozilla.org/en-US/firefox/addon/527 -->
+    	     
+    <!-- Firefox --> 
+    <targetApplication>
+      <Description>
+        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
+        <minVersion>3.0</minVersion>
+        <maxVersion>3.0.*</maxVersion>
+      </Description>
+    </targetApplication>
+   	  
+  </rdf:Description>      
+</rdf:RDF>
