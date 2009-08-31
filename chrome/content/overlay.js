@@ -87,7 +87,6 @@ var Delicious = {
 	    Components.classes["@mozilla.org/alerts-service;1"].getService(Components.interfaces.nsIAlertsService).showAlertNotification("chrome://delicious/skin/icon.png", "del.icio.us", text);
 	}
 	catch(e){
-	    alert('hata burda!!!')
 	    // notification not available on OS X in Firefox 2
 	}
     },
