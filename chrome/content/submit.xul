@@ -4,28 +4,33 @@
 
 <!DOCTYPE dialog SYSTEM "chrome://delicious/locale/dialog_submit.dtd">
 <dialog
-  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-  id="delicious-dialog" onload="Delicious.dialog();" ondialogaccept="return Delicious.accept();" title="&title;">
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    id="delicious-dialog" onload="Delicious.dialog();" ondialogaccept="return Delicious.accept();" title="&title;">
 
-	<stringbundle id="delicious-stringbundle" src="chrome://delicious/locale/dialog_submit.properties"/>
-	<script type="application/x-javascript" src="chrome://delicious/content/overlay.js"/>
+    <stringbundle id="delicious-stringbundle" src="chrome://delicious/locale/dialog_submit.properties"/>
+    <script type="application/x-javascript" src="chrome://delicious/content/overlay.js"/>
 
-	<vbox flex="1">
-		<label for="delicious-dialog-url" value="&url.label;"/>		
-		<textbox id="delicious-dialog-url" flex="1"/>
-		
-		<label for="delicious-dialog-description" value="&description.label;"/>		
-		<textbox id="delicious-dialog-description"/>
-		
-		<label for="delicious-dialog-extended" value="&extended.label;"/>
-		<textbox multiline="true" rows="5" id="delicious-dialog-extended"/>
-		
-		<label for="delicious-dialog-tags" value="&tags.label;"/>
-		<textbox id="delicious-dialog-tags"/>
-	</vbox>
-	
-	<hbox id="delicious-dialog-buttons">
-		<button id="delicious-dialog-accept" dlgtype="accept" label="&button.accept.label;"/>
-		<button id="delicious-dialog-cancel" dlgtype="cancel" label="&button.cancel.label;"/>
-	</hbox>
+    <vbox flex="1">
+        <label for="delicious-dialog-url" value="&url.label;"/>
+        <textbox id="delicious-dialog-url" flex="1"/>
+
+        <label for="delicious-dialog-description" value="&description.label;"/>
+        <textbox id="delicious-dialog-description"/>
+
+        <label for="delicious-dialog-extended" value="&extended.label;"/>
+        <textbox multiline="true" rows="5" id="delicious-dialog-extended"/>
+
+        <label for="delicious-dialog-tags" value="&tags.label;"/>
+        <textbox id="delicious-dialog-tags"/>
+    </vbox>
+
+    <hbox>
+        <checkbox id="delicious-no-share" label="&checkbox.private.label;" accesskey="&checkbox.private.accesskey;"/>
+        <checkbox id="delicious-replace" label="&checkbox.replace.label;" accesskey="&checkbox.replace.accesskey;" checked="true"/>
+    </hbox>
+
+    <hbox id="delicious-dialog-buttons">
+        <button id="delicious-dialog-accept" dlgtype="accept" label="&button.accept.label;"/>
+        <button id="delicious-dialog-cancel" dlgtype="cancel" label="&button.cancel.label;"/>
+    </hbox>
 </dialog>

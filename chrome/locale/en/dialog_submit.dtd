@@ -6,5 +6,11 @@
 <!ENTITY extended.label "Description">
 <!ENTITY tags.label "Tags">
 
+<!ENTITY checkbox.private.label "Private">
+<!ENTITY checkbox.private.accesskey "p">
+
+<!ENTITY checkbox.replace.label "Replace">
+<!ENTITY checkbox.replace.accesskey "r">
+
 <!ENTITY button.accept.label "Post">
 <!ENTITY button.cancel.label "Cancel">
