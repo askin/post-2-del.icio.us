@@ -1,0 +1,16 @@
+<!-- Dialog -->
+<!ENTITY title "del.icio.us'a gönder ...">
+
+<!ENTITY url.label "URL">
+<!ENTITY description.label "Başlık">
+<!ENTITY extended.label "Açıklama">
+<!ENTITY tags.label "Etiketler">
+
+<!ENTITY checkbox.private.label "Gizli">
+<!ENTITY checkbox.private.accesskey "g">
+
+<!ENTITY checkbox.replace.label "Değiştir">
+<!ENTITY checkbox.replace.accesskey "d">
+
+<!ENTITY button.accept.label "Gönder">
+<!ENTITY button.cancel.label "İptal">
