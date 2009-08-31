@@ -52,7 +52,6 @@ var Delicious = {
 	    q.push("replace=no");
 	}
 
-
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("POST",  "https://api.del.icio.us/v1/posts/add", false);
 	xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
