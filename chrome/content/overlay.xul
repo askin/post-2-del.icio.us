@@ -16,7 +16,7 @@
     </toolbarpalette>
 
     <keyset id="mainKeyset">
-        <key id="delicious-shortcut" key="p" modifiers="control,shift" oncommand="Delicious.launch()" />
+        <key id="delicious-shortcut" key="d" modifiers="control,shift" oncommand="Delicious.launch()" />
     </keyset>
 
 </overlay>
