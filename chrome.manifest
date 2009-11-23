@@ -1,7 +1,7 @@
-content delicious         chrome/content/
-skin    delicious classic chrome/skin/
-locale  delicious en      chrome/locale/en/
-locale  delicious tr      chrome/locale/tr/
+content post_2_delicious         chrome/content/
+skin    post_2_delicious classic chrome/skin/
+locale  post_2_delicious en      chrome/locale/en/
+locale  post_2_delicious tr      chrome/locale/tr/
 
-overlay chrome://browser/content/browser.xul          chrome://delicious/content/overlay.xul
-style   chrome://global/content/customizeToolbar.xul  chrome://delicious/skin/delicious.css
+overlay chrome://browser/content/browser.xul          chrome://post_2_delicious/content/overlay.xul
+style   chrome://global/content/customizeToolbar.xul  chrome://post_2_delicious/skin/delicious.css

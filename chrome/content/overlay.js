@@ -6,7 +6,7 @@ var Delicious = {
 	    description: gBrowser.contentDocument.title,
 	    extended: (text != "" ? '"' + text + '"' : text)
 	}
-	window.openDialog('chrome://delicious/content/submit.xul', '', 'centerscreen, chrome', params);
+	window.openDialog('chrome://post_2_delicious/content/submit.xul', '', 'centerscreen, chrome', params);
     },
 
     dialog: function(){
@@ -84,7 +84,7 @@ var Delicious = {
 
     notify: function(text){
 	try {
-	    Components.classes["@mozilla.org/alerts-service;1"].getService(Components.interfaces.nsIAlertsService).showAlertNotification("chrome://delicious/skin/icon.png", "del.icio.us", text);
+	    Components.classes["@mozilla.org/alerts-service;1"].getService(Components.interfaces.nsIAlertsService).showAlertNotification("chrome://post_2_delicious/skin/icon.png", "del.icio.us", text);
 	}
 	catch(e){
 	    // notification not available on OS X in Firefox 2

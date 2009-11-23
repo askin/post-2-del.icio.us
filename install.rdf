@@ -3,12 +3,12 @@
     <rdf:Description about="urn:mozilla:install-manifest">
 
         <id>del.icio.us@askin.ws</id>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <type>2</type>
 
         <name>post 2 del.icio.us</name>
         <description>Bookmark the current page at del.icio.us</description>
-        <iconURL>chrome://delicious/skin/icon.png</iconURL>
+        <iconURL>chrome://post_2_delicious/skin/icon.png</iconURL>
         <!-- based on, and uses the icon of, the post to del.icio.us extension by Alf Eaton https://addons.mozilla.org/en-US/firefox/addon/6652 -->
 
         <!-- Firefox -->

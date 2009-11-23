@@ -1,11 +1,11 @@
-<?xml-stylesheet href="chrome://delicious/skin/delicious.css" type="text/css"?>
-<!DOCTYPE overlay SYSTEM "chrome://delicious/locale/overlay.dtd">
+<?xml-stylesheet href="chrome://post_2_delicious/skin/delicious.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://post_2_delicious/locale/overlay.dtd">
 
 <overlay
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
     id="delicious-overlay">
 
-    <script type="application/x-javascript" src="chrome://delicious/content/overlay.js"/>
+    <script type="application/x-javascript" src="chrome://post_2_delicious/content/overlay.js"/>
 
     <toolbarpalette id="BrowserToolbarPalette">
         <toolbarbutton id="delicious-toolbar-button" class="toolbarbutton-1" oncommand="Delicious.launch()" context="_child" label="&toolbarbutton.label;" tooltiptext="&toolbarbutton.tooltiptext;">

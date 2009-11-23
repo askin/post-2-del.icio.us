@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<?xml-stylesheet href="chrome://delicious/skin/delicious.css" type="text/css"?>
+<?xml-stylesheet href="chrome://post_2_delicious/skin/delicious.css" type="text/css"?>
 
-<!DOCTYPE dialog SYSTEM "chrome://delicious/locale/dialog_submit.dtd">
+<!DOCTYPE dialog SYSTEM "chrome://post_2_delicious/locale/dialog_submit.dtd">
 <dialog
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
     id="delicious-dialog" onload="Delicious.dialog();" ondialogaccept="return Delicious.accept();" title="&title;">
 
-    <stringbundle id="delicious-stringbundle" src="chrome://delicious/locale/dialog_submit.properties"/>
-    <script type="application/x-javascript" src="chrome://delicious/content/overlay.js"/>
+    <stringbundle id="delicious-stringbundle" src="chrome://post_2_delicious/locale/dialog_submit.properties"/>
+    <script type="application/x-javascript" src="chrome://post_2_delicious/content/overlay.js"/>
 
     <vbox flex="1">
         <label for="delicious-dialog-url" value="&url.label;"/>

@@ -5,7 +5,7 @@
 }
 
 #delicious-toolbar-button {
-	list-style-image: url(chrome://delicious/skin/buttons.png);
+	list-style-image: url(chrome://post_2_delicious/skin/buttons.png);
 	-moz-image-region: rect(0 33px 24px 0);
 }
 
