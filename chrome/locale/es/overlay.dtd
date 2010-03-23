@@ -1,5 +1,4 @@
 <!-- toolbar button overlay -->
-<!ENTITY toolbarbutton.tooltiptext "Publicar p&aacute;gina en del.icio.us...">
+<!ENTITY toolbarbutton.tooltiptext "Publicar página en del.icio.us...">
 <!ENTITY toolbarbutton.label "del.icio.us">
-<!ENTITY toolbarbutton.tastylabel "&iquest;Sabroso?">
- 
+<!ENTITY toolbarbutton.tastylabel "¿Sabroso?">

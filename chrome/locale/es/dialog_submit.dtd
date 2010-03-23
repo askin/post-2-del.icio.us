@@ -2,8 +2,8 @@
 <!ENTITY title "Publicar en del.icio.us ...">
  
 <!ENTITY url.label "URL">
-<!ENTITY description.label "T&iacute;tulo">
-<!ENTITY extended.label "Descripci&oacute;n">
+<!ENTITY description.label "Título">
+<!ENTITY extended.label "Descripción">
 <!ENTITY tags.label "Tags">
  
 <!ENTITY checkbox.private.label "Privado">
