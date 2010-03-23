@@ -1,0 +1,17 @@
+<!-- Dialog -->
+<!ENTITY title "Publicar en del.icio.us ...">
+ 
+<!ENTITY url.label "URL">
+<!ENTITY description.label "T&iacute;tulo">
+<!ENTITY extended.label "Descripci&oacute;n">
+<!ENTITY tags.label "Tags">
+ 
+<!ENTITY checkbox.private.label "Privado">
+<!ENTITY checkbox.private.accesskey "p">
+ 
+<!ENTITY checkbox.replace.label "Sustituir">
+<!ENTITY checkbox.replace.accesskey "r">
+ 
+<!ENTITY button.accept.label "Publicar">
+<!ENTITY button.cancel.label "Cancelar">
+ 
