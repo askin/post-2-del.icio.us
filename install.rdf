@@ -3,7 +3,7 @@
     <rdf:Description about="urn:mozilla:install-manifest">
 
         <id>del.icio.us@askin.ws</id>
-        <version>1.0.3</version>
+        <version>1.0.4</version>
         <type>2</type>
 
         <name>post 2 del.icio.us</name>
