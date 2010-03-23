@@ -4,6 +4,9 @@ Recreated by Aşkın Yollu aka kelebek http://www.askin.ws
 
 Firstly created by Patrick H. Lauke aka redux - http://www.splintered.co.uk
 
+Translations:
+  * Spanish : Siete Coyote - http://www.sietecoyote.com
+
 Distributed under the Creative Commons Attribution-ShareAlike license.
 
 You are free:
