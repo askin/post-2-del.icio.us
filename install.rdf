@@ -9,6 +9,7 @@
         <name>post 2 del.icio.us</name>
         <description>Bookmark the current page at del.icio.us</description>
         <iconURL>chrome://post_2_delicious/skin/icon.png</iconURL>
+        <homepageURL>http://www.askin.ws</homepageURL>
         <!-- based on, and uses the icon of, the post to del.icio.us extension by Alf Eaton https://addons.mozilla.org/en-US/firefox/addon/6652 -->
 
         <!-- Firefox -->
@@ -16,9 +17,10 @@
             <Description>
                 <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
                 <minVersion>3.0</minVersion>
-                <maxVersion>3.6.*</maxVersion>
+                <maxVersion>3.7a4pre</maxVersion>
             </Description>
         </targetApplication>
 
+        <translator>Siete Coyote - http://www.sietecoyote.com (es)</translator>
     </rdf:Description>
 </rdf:RDF>
