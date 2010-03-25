@@ -1,0 +1,1 @@
+pref("extensions.del.icio.us@askin.ws.description", "chrome://post_2_delicious/locale/post_2_delicious.properties");
